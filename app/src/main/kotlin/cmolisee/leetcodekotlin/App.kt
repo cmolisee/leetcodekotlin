@@ -4,12 +4,17 @@
 package cmolisee.leetcodekotlin
 
 class App {
-    val greeting: String
+    val notes: String
         get() {
-            return "Hello World!"
+            return """
+            ${"=".repeat(64)}
+             > ./gradlew run -Pmain=class.pathKt < to run a single class
+             > ./gradlew runall < to run all the classes
+            ${"=".repeat(64)}
+            """
         }
 }
 
 fun main() {
-    println(App().greeting)
+    println(App().notes)
 }

@@ -1,5 +1,9 @@
+import com.adarshr.gradle.testlogger.TestLoggerExtension
+import com.adarshr.gradle.testlogger.theme.ThemeType
+
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
+    id("com.adarshr.test-logger") version "3.2.0"
 
     application
     java
@@ -29,13 +33,31 @@ testing {
     }
 }
 
+configure<TestLoggerExtension> {
+    theme = ThemeType.MOCHA
+    showExceptions = true
+    showStackTraces = true
+    showFullStackTraces = false
+    showCauses = true
+    slowThreshold = 2000
+    showSummary = true
+    showSimpleNames = false
+    showPassed = true
+    showSkipped = true
+    showFailed = true
+    showOnlySlow = false
+    showStandardStreams = false
+    showPassedStandardStreams = true
+    showSkippedStandardStreams = true
+    showFailedStandardStreams = true
+}
+
 application {
     val main: String = (project.findProperty("main") ?: "cmolisee.leetcodekotlin.AppKt").toString()
     mainClass.set(main)
 }
 
 tasks.register<Exec>("runall") {
-    // commandLine("chmod", "+x", "runAll.sh")
-    // commandLine("chmod", "+x", "gradlew")
+    commandLine("chmod", "+x", "gradlew")
     commandLine("./runAll.sh")
 }
