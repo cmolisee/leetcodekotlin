@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cmolisee.leetcodekotlin.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-28T18:02:17" hostname="Codys-MacBook-Pro.local" time="0.049">
+<testsuite name="cmolisee.leetcodekotlin.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-28T22:38:58" hostname="MPC-F45K1MD6R" time="0.034">
   <properties/>
-  <testcase name="appHasAGreeting()" classname="cmolisee.leetcodekotlin.AppTest" time="0.049"/>
+  <testcase name="appHasAGreeting()" classname="cmolisee.leetcodekotlin.AppTest" time="0.034"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

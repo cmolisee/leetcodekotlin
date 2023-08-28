@@ -1,9 +1,11 @@
 import com.adarshr.gradle.testlogger.TestLoggerExtension
 import com.adarshr.gradle.testlogger.theme.ThemeType
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
     id("com.adarshr.test-logger") version "3.2.0"
+    id("org.jlleitschuh.gradle.ktlint") version "11.5.1"
 
     application
     java
@@ -33,6 +35,16 @@ testing {
     }
 }
 
+application {
+    val main: String = (project.findProperty("main") ?: "cmolisee.leetcodekotlin.AppKt").toString()
+    mainClass.set(main)
+}
+
+tasks.register<Exec>("runall") {
+    commandLine("chmod", "+x", "gradlew")
+    commandLine("./runAll.sh")
+}
+
 configure<TestLoggerExtension> {
     theme = ThemeType.MOCHA
     showExceptions = true
@@ -52,12 +64,14 @@ configure<TestLoggerExtension> {
     showFailedStandardStreams = true
 }
 
-application {
-    val main: String = (project.findProperty("main") ?: "cmolisee.leetcodekotlin.AppKt").toString()
-    mainClass.set(main)
-}
-
-tasks.register<Exec>("runall") {
-    commandLine("chmod", "+x", "gradlew")
-    commandLine("./runAll.sh")
+ktlint {
+    version.set("0.50.0")
+    verbose.set(true)
+    outputToConsole.set(true)
+    coloredOutput.set(true)
+    reporters {
+        reporter(ReporterType.CHECKSTYLE)
+        reporter(ReporterType.JSON)
+        reporter(ReporterType.HTML)
+    }
 }
