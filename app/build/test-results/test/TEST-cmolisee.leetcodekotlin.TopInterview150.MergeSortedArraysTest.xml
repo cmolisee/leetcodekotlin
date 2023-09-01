@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cmolisee.leetcodekotlin.TopInterview150.MergeSortedArraysTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-01T15:59:03" hostname="MPC-F45K1MD6R" time="0.006">
+<testsuite name="cmolisee.leetcodekotlin.TopInterview150.MergeSortedArraysTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-01T16:01:41" hostname="MPC-F45K1MD6R" time="0.006">
   <properties/>
   <testcase name="example1()" classname="cmolisee.leetcodekotlin.TopInterview150.MergeSortedArraysTest" time="0.004"/>
   <testcase name="example2()" classname="cmolisee.leetcodekotlin.TopInterview150.MergeSortedArraysTest" time="0.001"/>

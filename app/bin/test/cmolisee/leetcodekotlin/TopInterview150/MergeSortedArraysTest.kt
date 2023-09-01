@@ -11,9 +11,9 @@ class MergeSortedArraysTest {
         var expected = intArrayOf(1,2,2,3,5,6)
 
         println("merging sorted arrays: ${Arrays.toString(nums1)} and ${Arrays.toString(nums2)}")
-
         SolutionMergeSortedArrays().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
-        assertTrue(expected contentEquals nums1, "Expected and nums1 do not match...")
+
+        assertTrue(expected contentEquals nums1, "expected: ${Arrays.toString(expected)}, actual: ${Arrays.toString(nums1)}")
     }
 
     @Test fun example2() {
@@ -22,9 +22,9 @@ class MergeSortedArraysTest {
         var expected = intArrayOf(1)
 
         println("merging sorted arrays: ${Arrays.toString(nums1)} and ${Arrays.toString(nums2)}")
-
         SolutionMergeSortedArrays().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
-        assertTrue(expected contentEquals nums1, "Expected and nums1 do not match...")
+
+        assertTrue(expected contentEquals nums1, "expected: ${Arrays.toString(expected)}, actual: ${Arrays.toString(nums1)}")
     }
 
     @Test fun example3() {
@@ -33,8 +33,8 @@ class MergeSortedArraysTest {
         var expected = intArrayOf(1)
 
         println("merging sorted arrays: ${Arrays.toString(nums1)} and ${Arrays.toString(nums2)}")
-
         SolutionMergeSortedArrays().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
-        assertTrue(expected contentEquals nums1, "Expected and nums1 do not match...")
+
+        assertTrue(expected contentEquals nums1, "expected: ${Arrays.toString(expected)}, actual: ${Arrays.toString(nums1)}")
     }
 }
