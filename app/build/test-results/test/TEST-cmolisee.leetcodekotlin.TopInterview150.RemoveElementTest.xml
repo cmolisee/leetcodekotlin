@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cmolisee.leetcodekotlin.TopInterview150.RemoveElementTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-01T15:59:03" hostname="MPC-F45K1MD6R" time="0.028">
+  <properties/>
+  <testcase name="example1()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveElementTest" time="0.027"/>
+  <testcase name="example2()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveElementTest" time="0.0"/>
+  <system-out><![CDATA[removing 3 from [3, 2, 2, 3]
+removing 2 from [0, 1, 2, 2, 3, 0, 4, 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

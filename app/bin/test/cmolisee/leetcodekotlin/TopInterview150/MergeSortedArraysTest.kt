@@ -12,7 +12,7 @@ class MergeSortedArraysTest {
 
         println("merging sorted arrays: ${Arrays.toString(nums1)} and ${Arrays.toString(nums2)}")
 
-        Solution().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
+        SolutionMergeSortedArrays().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
         assertTrue(expected contentEquals nums1, "Expected and nums1 do not match...")
     }
 
@@ -23,7 +23,7 @@ class MergeSortedArraysTest {
 
         println("merging sorted arrays: ${Arrays.toString(nums1)} and ${Arrays.toString(nums2)}")
 
-        Solution().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
+        SolutionMergeSortedArrays().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
         assertTrue(expected contentEquals nums1, "Expected and nums1 do not match...")
     }
 
@@ -34,7 +34,7 @@ class MergeSortedArraysTest {
 
         println("merging sorted arrays: ${Arrays.toString(nums1)} and ${Arrays.toString(nums2)}")
 
-        Solution().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
+        SolutionMergeSortedArrays().merge(nums1, nums1.size - nums2.size, nums2, nums2.size)
         assertTrue(expected contentEquals nums1, "Expected and nums1 do not match...")
     }
 }
