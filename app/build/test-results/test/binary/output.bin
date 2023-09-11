@@ -1,13 +1,15 @@
-	8merging sorted arrays: [1, 2, 3, 0, 0, 0] and [2, 5, 6]
+	&finding majority element in [3, 2, 3]
 	
-"merging sorted arrays: [1] and []
-	#merging sorted arrays: [0] and [1]
-#removing duplicates from [1, 1, 2]
-8removing duplicates from [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
- removing duplicates from [1, 1]
-,removing duplicates from [1, 1, 1, 2, 2, 3]
-5removing duplicates from [0, 0, 1, 1, 1, 1, 2, 3, 3]
-,removing duplicates from [1, 1, 1, 2, 2, 3]
-5removing duplicates from [0, 0, 1, 1, 1, 1, 2, 3, 3]
-removing 3 from [3, 2, 2, 3]
-)removing 2 from [0, 1, 2, 2, 3, 0, 4, 2]
+2finding majority element in [2, 2, 1, 1, 1, 2, 2]
+8merging sorted arrays: [1, 2, 3, 0, 0, 0] and [2, 5, 6]
+"merging sorted arrays: [1] and []
+#merging sorted arrays: [0] and [1]
+#removing duplicates from [1, 1, 2]
+8removing duplicates from [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+ removing duplicates from [1, 1]
+,removing duplicates from [1, 1, 1, 2, 2, 3]
+5removing duplicates from [0, 0, 1, 1, 1, 1, 2, 3, 3]
+,removing duplicates from [1, 1, 1, 2, 2, 3]
+5removing duplicates from [0, 0, 1, 1, 1, 1, 2, 3, 3]
+removing 3 from [3, 2, 2, 3]
+)removing 2 from [0, 1, 2, 2, 3, 0, 4, 2]
