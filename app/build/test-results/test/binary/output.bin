@@ -5,5 +5,9 @@
 #removing duplicates from [1, 1, 2]
 8removing duplicates from [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
  removing duplicates from [1, 1]
-removing 3 from [3, 2, 2, 3]
-)removing 2 from [0, 1, 2, 2, 3, 0, 4, 2]
+,removing duplicates from [1, 1, 1, 2, 2, 3]
+5removing duplicates from [0, 0, 1, 1, 1, 1, 2, 3, 3]
+,removing duplicates from [1, 1, 1, 2, 2, 3]
+5removing duplicates from [0, 0, 1, 1, 1, 1, 2, 3, 3]
+removing 3 from [3, 2, 2, 3]
+)removing 2 from [0, 1, 2, 2, 3, 0, 4, 2]
