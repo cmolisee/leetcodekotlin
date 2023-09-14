@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cmolisee.leetcodekotlin.TopInterview150.MaxProfitTwoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-09-14T23:28:20" hostname="MPC-F45K1MD6R" time="0.006">
+  <properties/>
+  <testcase name="example1B()" classname="cmolisee.leetcodekotlin.TopInterview150.MaxProfitTwoTest" time="0.001"/>
+  <testcase name="example2B()" classname="cmolisee.leetcodekotlin.TopInterview150.MaxProfitTwoTest" time="0.001"/>
+  <testcase name="example1()" classname="cmolisee.leetcodekotlin.TopInterview150.MaxProfitTwoTest" time="0.0"/>
+  <testcase name="example2()" classname="cmolisee.leetcodekotlin.TopInterview150.MaxProfitTwoTest" time="0.0"/>
+  <system-out><![CDATA[calculate max profit in [7, 1, 5, 3, 6, 4]
+calculate max profit in [1, 2, 3, 4, 5]
+calculate max profit in [7, 1, 5, 3, 6, 4]
+calculate max profit in [1, 2, 3, 4, 5]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
