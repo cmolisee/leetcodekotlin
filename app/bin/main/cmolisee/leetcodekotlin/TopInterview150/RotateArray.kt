@@ -25,13 +25,9 @@ class SolutionRotateArray {
         if (k == 0 || k == nums.size || nums.size == 1) return
         val n = if (k > nums.size) k % nums.size else k
 
-        println("k is $k, n is $n,")
         nums.reverse(0, nums.size)
-        println("1: ${Arrays.toString(nums)}")
         nums.reverse(0, n)
-        println("2: ${Arrays.toString(nums)}")
         nums.reverse(n, nums.size)
-        println("3: ${Arrays.toString(nums)}")
     }
 
     // too slow
