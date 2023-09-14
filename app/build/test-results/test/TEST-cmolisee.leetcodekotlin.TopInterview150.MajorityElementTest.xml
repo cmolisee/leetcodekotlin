@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cmolisee.leetcodekotlin.TopInterview150.MajorityElementTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-14T17:38:02" hostname="MPC-F45K1MD6R" time="0.011">
+  <properties/>
+  <testcase name="example1()" classname="cmolisee.leetcodekotlin.TopInterview150.MajorityElementTest" time="0.009"/>
+  <testcase name="example2()" classname="cmolisee.leetcodekotlin.TopInterview150.MajorityElementTest" time="0.001"/>
+  <system-out><![CDATA[finding majority element in [3, 2, 3]
+finding majority element in [2, 2, 1, 1, 1, 2, 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
