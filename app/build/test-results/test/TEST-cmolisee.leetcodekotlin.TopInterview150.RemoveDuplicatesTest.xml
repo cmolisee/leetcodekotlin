@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-14T23:28:20" hostname="MPC-F45K1MD6R" time="0.026">
+<testsuite name="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-14T23:53:54" hostname="MPC-F45K1MD6R" time="0.004">
   <properties/>
-  <testcase name="example1()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" time="0.023"/>
-  <testcase name="example2()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" time="0.0"/>
+  <testcase name="example1()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" time="0.001"/>
+  <testcase name="example2()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" time="0.001"/>
   <testcase name="example3()" classname="cmolisee.leetcodekotlin.TopInterview150.RemoveDuplicatesTest" time="0.001"/>
   <system-out><![CDATA[removing duplicates from [1, 1, 2]
 removing duplicates from [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
